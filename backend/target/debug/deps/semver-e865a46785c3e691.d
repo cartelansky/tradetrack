@@ -1,0 +1,12 @@
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\libsemver-e865a46785c3e691.rmeta: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\backport.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\display.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\error.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\eval.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\identifier.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\impls.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\parse.rs
+
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\semver-e865a46785c3e691.d: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\backport.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\display.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\error.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\eval.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\identifier.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\impls.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\parse.rs
+
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\lib.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\backport.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\display.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\error.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\eval.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\identifier.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\impls.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\semver-1.0.24\src\parse.rs:

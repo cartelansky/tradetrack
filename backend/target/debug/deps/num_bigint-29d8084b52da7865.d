@@ -1,0 +1,10 @@
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\libnum_bigint-29d8084b52da7865.rmeta: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\macros.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\bigint.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\biguint.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\algorithms.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\monty.rs
+
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\num_bigint-29d8084b52da7865.d: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\macros.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\bigint.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\biguint.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\algorithms.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\monty.rs
+
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\lib.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\macros.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\bigint.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\biguint.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\algorithms.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\num-bigint-0.2.6\src\monty.rs:

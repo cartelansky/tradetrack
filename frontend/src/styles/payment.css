@@ -1,0 +1,326 @@
+.payment-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.payment-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.payment-header h2 {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.subscription-details, .amount-details {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.network-options, .token-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.network-option, .token-option {
+    padding: 1.5rem;
+    border: 2px solid var(--gray-light);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.network-option:hover, .token-option:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.network-option.selected, .token-option.selected {
+    border-color: var(--primary-color);
+    background-color: rgba(83, 76, 231, 0.05);
+}
+
+.network-option img, .token-option img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.network-details {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.fee {
+    color: var(--accent-color);
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.wallet-connect {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.connect-btn {
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.connect-btn:hover {
+    background-color: var(--accent-color);
+}
+
+.payment-summary {
+    border-top: 1px solid var(--gray-light);
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.summary-details {
+    margin: 1.5rem 0;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--gray-light);
+}
+
+.confirm-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.confirm-btn:disabled {
+    background-color: var(--gray-light);
+    cursor: not-allowed;
+}
+
+.confirm-btn:not(:disabled):hover {
+    background-color: var(--accent-color);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Plan seçimi stilleri */
+.plan-selection {
+    margin: 2rem 0;
+}
+
+.plan-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.plan-option {
+    position: relative;
+    padding: 2rem;
+    border: 2px solid var(--gray-light);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.plan-option:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.plan-option.selected {
+    border-color: var(--primary-color);
+    background-color: rgba(83, 76, 231, 0.05);
+}
+
+.plan-option h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.plan-price {
+    margin-bottom: 1.5rem;
+}
+
+.plan-price .amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.plan-price .currency {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-left: 0.5rem;
+}
+
+.plan-features {
+    list-style: none;
+}
+
+.plan-features li {
+    margin: 0.8rem 0;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+.plan-features li i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Responsive düzenlemeler */
+@media screen and (max-width: 768px) {
+    .payment-container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    .network-options, .token-options {
+        grid-template-columns: 1fr;
+    }
+
+    .plan-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+.wallet-address-container {
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 2px solid var(--gray-light);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.wallet-address-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: var(--gray-light);
+    border-radius: 8px;
+}
+
+.wallet-address-box code {
+    font-size: 1rem;
+    color: var(--text-color);
+    word-break: break-all;
+}
+
+.copy-btn {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+    color: var(--accent-color);
+}
+
+.address-info {
+    margin: 1.5rem 0;
+}
+
+.warning {
+    color: #EF4444;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.warning i {
+    margin-right: 0.5rem;
+}
+
+.amount-info {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.payment-verification {
+    margin-top: 2rem;
+}
+
+.tx-input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--gray-light);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.verify-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.verify-btn:disabled {
+    background-color: var(--gray-light);
+    cursor: not-allowed;
+}
+
+.verify-btn:not(:disabled):hover {
+    background-color: var(--accent-color);
+} 

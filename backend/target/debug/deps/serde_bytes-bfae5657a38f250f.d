@@ -1,0 +1,10 @@
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\libserde_bytes-bfae5657a38f250f.rmeta: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytearray.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytes.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\de.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\ser.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytebuf.rs
+
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\serde_bytes-bfae5657a38f250f.d: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytearray.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytes.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\de.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\ser.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytebuf.rs
+
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\lib.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytearray.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytes.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\de.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\ser.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_bytes-0.11.15\src\bytebuf.rs:

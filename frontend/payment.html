@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - TradeTrack</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="payment-container">
+        <div class="payment-header">
+            <h2>Complete Your Payment</h2>
+            <div class="plan-selection">
+                <h3>Select Your Plan</h3>
+                <div class="plan-options">
+                    <div class="plan-option" onclick="selectPlanType('Basic')" id="basic-plan">
+                        <h4>Basic Plan</h4>
+                        <div class="plan-price">
+                            <span class="amount">50</span>
+                            <span class="currency">USDT/USDC</span>
+                        </div>
+                    </div>
+                    <div class="plan-option" onclick="selectPlanType('Pro')" id="pro-plan">
+                        <div class="popular-badge">Most Popular</div>
+                        <h4>Pro Plan</h4>
+                        <div class="plan-price">
+                            <span class="amount">100</span>
+                            <span class="currency">USDT/USDC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="payment-options">
+            <div class="blockchain-selection">
+                <h3>Select Blockchain Network</h3>
+                <div class="network-options">
+                    <div class="network-option" onclick="selectNetwork('solana')">
+                        <img src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="Solana">
+                        <span>Solana</span>
+                    </div>
+                    <div class="network-option" onclick="selectNetwork('polygon')">
+                        <img src="https://cryptologos.cc/logos/polygon-matic-logo.png" alt="Polygon">
+                        <span>Polygon</span>
+                    </div>
+                </div>
+
+                <h3>Select Token</h3>
+                <div class="token-options">
+                    <div class="token-option" onclick="selectToken('usdt')">
+                        <img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="USDT">
+                        <span>USDT</span>
+                    </div>
+                    <div class="token-option" onclick="selectToken('usdc')">
+                        <img src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png" alt="USDC">
+                        <span>USDC</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wallet-connect">
+                <div class="wallet-address-container hidden" id="wallet-address-container">
+                    <h3>Send Payment to Address</h3>
+                    <div class="wallet-address-box">
+                        <code id="wallet-address">Select a network first</code>
+                        <button onclick="copyAddress()" class="copy-btn" id="copy-btn">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="address-info">
+                        <p class="warning"><i class="fas fa-exclamation-triangle"></i> Send only on <span id="network-name">selected</span> network</p>
+                        <p class="warning"><i class="fas fa-exclamation-triangle"></i> Network fees are not included in the amount</p>
+                        <p class="amount-info">Amount to send: <span id="amount-to-send">-</span></p>
+                    </div>
+                    <div class="payment-verification">
+                        <input type="text" id="tx-hash" placeholder="Enter transaction hash after payment" class="tx-input">
+                        <button onclick="verifyPayment()" class="verify-btn" id="verify-payment-btn" disabled>
+                            Verify Payment
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-summary hidden" id="payment-summary">
+                <h3>Payment Summary</h3>
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>Network:</span>
+                        <span id="selected-network">-</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Token:</span>
+                        <span id="selected-token">-</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Amount:</span>
+                        <span id="final-amount">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/payment.js"></script>
+</body>
+</html> 

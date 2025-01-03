@@ -1,0 +1,134 @@
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem 1.5rem;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2.6rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        padding: 0 2rem;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .footer-content {
+        padding: 0 1rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 0.5rem;
+    }
+
+    .auth-buttons {
+        margin-top: 1rem;
+    }
+
+    .auth-buttons button {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        padding: 0 0.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+        line-height: 1.6;
+        margin: 0 auto 1.2rem;
+    }
+
+    .cta-button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .feature-card {
+        padding: 2rem;
+    }
+
+    .pricing {
+        padding: 4rem 1rem;
+    }
+
+    .pricing-title {
+        font-size: 2rem;
+    }
+
+    .pricing-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .price .amount {
+        font-size: 3rem;
+    }
+
+    footer {
+        padding: 2rem 0;
+    }
+
+    .footer-links a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .footer-brand h3 {
+        font-size: 1.3rem;
+    }
+
+    .footer-brand p {
+        font-size: 0.9rem;
+    }
+
+    .footer-contact {
+        margin-bottom: 1rem;
+    }
+
+    .footer-contact p {
+        font-size: 0.9rem;
+    }
+
+    .contact-section {
+        padding: 1.5rem 0;
+    }
+
+    .contact-container p {
+        font-size: 1rem;
+    }
+} 

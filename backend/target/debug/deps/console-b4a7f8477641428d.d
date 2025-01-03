@@ -1,0 +1,11 @@
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\libconsole-b4a7f8477641428d.rmeta: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\common_term.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\kb.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\term.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\utils.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\windows_term\mod.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\ansi.rs
+
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\console-b4a7f8477641428d.d: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\common_term.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\kb.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\term.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\utils.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\windows_term\mod.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\ansi.rs
+
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\lib.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\common_term.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\kb.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\term.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\utils.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\windows_term\mod.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\console-0.15.10\src\ansi.rs:

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeTrack - Crypto Market Data</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Bölümü -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>TradeTrack</h1>
+            </div>
+            <div class="auth-buttons">
+                <button class="login-btn" onclick="showLoginModal()">Log In</button>
+                <button class="signup-btn" onclick="showSignupModal()">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Ana Bölüm -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Track Global Markets</h1>
+                <p>Access thousands of real-time data points for cryptocurrencies, stocks, metals & commodities. Create your custom watchlists today!</p>
+                <button class="cta-button" onclick="selectPlan('Basic')">Get Started</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-bolt"></i>
+                <h3>Lightning Fast</h3>
+                <p>Process market data from 100+ exchanges instantly</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-file-export"></i>
+                <h3>Easy Export</h3>
+                <p>Customizable exports in multiple formats with one click</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-sync"></i>
+                <h3>Real-Time Data</h3>
+                <p>Live updates for crypto, stocks, metals & commodities</p>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <h2 class="pricing-title">Choose Your Plan</h2>
+            <div class="pricing-container">
+                <div class="pricing-card basic">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="amount">50</span>
+                            <span class="currency">USDT</span>
+                            <span class="period">/3 months</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Real-time market data</li>
+                        <li><i class="fas fa-check"></i> Limited market metrics</li>
+                        <li><i class="fas fa-check"></i> Daily data updates</li>
+                        <li><i class="fas fa-check"></i> Limited crypto exchange data</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="selectPlan('Basic')">Get Started</button>
+                </div>
+
+                <div class="pricing-card pro">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="amount">100</span>
+                            <span class="currency">USDT</span>
+                            <span class="period">/3 months</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited coin exports</li>
+                        <li><i class="fas fa-check"></i> Priority data updates</li>
+                        <li><i class="fas fa-check"></i> Advanced market metrics</li>
+                        <li><i class="fas fa-check"></i> Multiple format exports</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <button class="pricing-btn pro-btn" onclick="selectPlan('Pro')">Get Pro</button>
+                </div>
+            </div>
+            <div class="global-payment-info">
+                <p class="payment-title">We accept payments in:</p>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <img src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png" alt="USDC">
+                        <span>USDC</span>
+                    </div>
+                    <div class="payment-method">
+                        <img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="USDT">
+                        <span>USDT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <p>Contact us: <a href="mailto:support@tradetrack.com">support@tradetrack.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Bölümü -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>TradeTrack</h3>
+                <p>Your gateway to comprehensive market data</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 TradeTrack</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign Up Modal -->
+    <div class="modal" id="signup-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Create Account</h2>
+            <form id="signup-form" onsubmit="handleSignup(event)">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+            <p class="form-footer">
+                Already have an account? <a href="#" onclick="showLoginModal()">Log In</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Welcome Back</h2>
+            <form id="login-form" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <p class="form-footer">
+                Don't have an account? <a href="#" onclick="showSignupModal()">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html> 

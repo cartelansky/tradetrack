@@ -1,0 +1,11 @@
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\libborsh-d7f0d18a92a487fd.rmeta: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\de\mod.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\de\hint.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\schema.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\schema_helpers.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\ser\mod.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\ser\helpers.rs
+
+C:\Users\emrea\OneDrive\Masaüstü\uygulama\example\backend\target\debug\deps\borsh-d7f0d18a92a487fd.d: C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\lib.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\de\mod.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\de\hint.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\schema.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\schema_helpers.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\ser\mod.rs C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\ser\helpers.rs
+
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\lib.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\de\mod.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\de\hint.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\schema.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\schema_helpers.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\ser\mod.rs:
+C:\Users\emrea\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\borsh-0.9.3\src\ser\helpers.rs:
